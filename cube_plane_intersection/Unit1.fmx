@@ -1,0 +1,111 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 893
+  ClientWidth = 1010
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Viewport3D1: TViewport3D
+    Touch.InteractiveGestures = [Zoom, Pan, Rotate]
+    OnGesture = Viewport3D1Gesture
+    Align = Client
+    Camera = Camera1
+    Size.Width = 1010.000000000000000000
+    Size.Height = 893.000000000000000000
+    Size.PlatformDefault = False
+    UsingDesignCamera = False
+    OnMouseDown = Viewport3D1MouseDown
+    OnMouseMove = Viewport3D1MouseMove
+    OnMouseUp = Viewport3D1MouseUp
+    object Cube1: TCube
+      Position.X = 3.000000000000000000
+      RotationAngle.X = 30.000000000000000000
+      RotationAngle.Y = 40.000000000000000000
+      RotationAngle.Z = 50.000000000000000000
+      Width = 5.000000000000000000
+      Height = 5.000000000000000000
+      Depth = 5.000000000000000000
+      Opacity = 0.500000000000000000
+      HitTest = False
+      Visible = False
+      MaterialSource = ColorMaterialSource1
+      Quanternion = 
+        '(0.360042154788971,0.196628198027611,0.463826894760132,0.7852206' +
+        '82621002)'
+    end
+    object Plane1: TPlane
+      Width = 20.000000000000000000
+      Height = 20.000000000000000000
+      Depth = 0.001000000047497451
+      Opacity = 0.500000000000000000
+      HitTest = False
+      MaterialSource = ColorMaterialSource2
+    end
+    object Light1: TLight
+      Color = claWhite
+      LightType = Directional
+      SpotCutOff = 180.000000000000000000
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+    end
+    object Dummy1: TDummy
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+      object Dummy2: TDummy
+        Width = 1.000000000000000000
+        Height = 1.000000000000000000
+        Depth = 1.000000000000000000
+        object Camera1: TCamera
+          AngleOfView = 45.000000000000000000
+          Position.Z = -20.000000000000000000
+          Width = 1.000000000000000000
+          Height = 1.000000000000000000
+          Depth = 1.000000000000000000
+        end
+      end
+    end
+    object Dummy3: TDummy
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+      OnRender = Dummy3Render
+    end
+    object Grid3D1: TGrid3D
+      Marks = 4.000000000000000000
+      Frequency = 1.000000000000000000
+      LineColor = x50505050
+      RotationAngle.X = 90.000000000000000000
+      Width = 20.000000000000000000
+      Height = 20.000000000000000000
+      Depth = 0.001000000047497451
+      HitTest = False
+      Quanternion = '(0.70710676908493,0,0,0.70710676908493)'
+    end
+  end
+  object ColorMaterialSource1: TColorMaterialSource
+    Color = claYellow
+    Left = 552
+    Top = 200
+  end
+  object Timer1: TTimer
+    Interval = 10
+    OnTimer = Timer1Timer
+    Left = 96
+    Top = 104
+  end
+  object ColorMaterialSource2: TColorMaterialSource
+    Color = claAqua
+    Left = 544
+    Top = 112
+  end
+  object ColorMaterialSource3: TColorMaterialSource
+    Color = claFuchsia
+    Left = 663
+    Top = 124
+  end
+end

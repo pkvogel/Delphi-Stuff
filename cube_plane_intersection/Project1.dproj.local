@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.158,D:\Programmieren\2017_delphi\cube_plane_intersection\Unit1.pas=C:\Users\meiner\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.001,D:\Programmieren\2017_delphi\cube_plane_intersection\UConvexHull.pas=D:\Programmieren\2017_delphi\cube_plane_intersection\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.877,=D:\Programmieren\2017_delphi\cube_plane_intersection\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.158,D:\Programmieren\2017_delphi\cube_plane_intersection\Unit1.fmx=C:\Users\meiner\Documents\Embarcadero\Studio\Projekte\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.973,D:\Programmieren\2017_delphi\cube_plane_intersection\Project1.dproj=C:\Users\meiner\Documents\Embarcadero\Studio\Projekte\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.017,=C:\Users\meiner\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.391,D:\Programmieren\2017_delphi\cube_plane_intersection\UIntersection.pas=D:\Programmieren\2017_delphi\cube_plane_intersection\UConvexHull.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
